@@ -13,6 +13,11 @@ SetControlDelay, -1
 CoordMode Mouse, Screen
 Setup()
 
+!3::
+    Pause
+return
+
+
 ~LButton::ShowRipple(LeftClickRippleColor)
 ~MButton::ShowRipple(MiddleClickRippleColor)
 ~RButton::ShowRipple(RightClickRippleColor,, 1)
